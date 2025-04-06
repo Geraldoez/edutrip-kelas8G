@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EduTrip | Mandarin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+    body {
+  background-image: url('SacredHeart.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+  padding-top: 100px;
+}
+
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(8px);
+      padding: 15px 30px;
+      border-radius: 50px;
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 999;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    nav a {
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 8px 16px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #ffab91;
+      color: #000;
+    }
+
+    .container {
+  background: #880e4f;
+      padding: 60px 40px;
+      border-radius: 25px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      text-align: center;
+      max-width: 600px;
+      width: 90%;
+      z-index: 2;
+    }
+
+    h1 { font-size: 2.5rem; color: #ffab91; }
+    p { font-size: 1.1rem; color: #f0f0f0; margin-top: 15px; }
+    .icon { font-size: 3rem; margin-bottom: 20px; }
+
+    .waves {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 150px;
+      background: url('https://svgshare.com/i/11hA.svg') repeat-x;
+      animation: wave 10s linear infinite;
+      opacity: 0.08;
+      z-index: 0;
+    }
+
+    @keyframes wave {
+      0% { background-position-x: 0; }
+      100% { background-position-x: 1000px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="waves"></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="agama.html">Agama</a>
+    <a href="ppkn.html">PPKn</a>
+    <a href="bahasa indonesia.html">Bahasa Indonesia</a>
+    <a href="bahasa inggris.html">Bahasa Inggris</a>
+    <a href="ips.html">IPS</a>
+    <a href="mandarin.html">Mandarin</a>
+  </nav>
+
+  <div class="container">
+    <h1>Tugas Pelajaran Bahasa Mandarin</h1>
+    <h2>Membuat esai menggambarkan teman Anda dengan minimal 80 hanzi </h2>
+    <p>我的新朋友叫Ryan，今年十四岁，生日是二月四日。他在Sacred Heart High School读书，现在上八年级。他非常友好，也很有趣，我们很快就成为了朋友。
+        Ryan喜欢吃披萨，也喜欢打篮球。他打篮球打得很好，在活动中很积极。我们一起去了Ren'ai Senior Citizen’s Home，帮助老人们，度过了一个很有意义的上午。   
+       我最喜欢的活动是在Sacred Heart High School和朋友们一起做SDG演讲。我学到了很多关于可持续发展的知识，也锻炼了我的表达能力。这次台湾教育之旅让我交到新朋友, 也收获了很多快乐和成长。</p>
+  </div>
+</body>
+</html>
