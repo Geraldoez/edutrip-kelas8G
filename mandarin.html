@@ -9,21 +9,20 @@
     * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
 
     body {
-  background-image: url('SacredHeart.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  color: white;
-  padding-top: 100px;
-}
-
+      background-image: url('SacredHeart.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      color: white;
+      padding-top: 100px;
+    }
 
     nav {
       display: flex;
@@ -51,13 +50,14 @@
       transition: all 0.3s ease;
     }
 
-    nav a:hover {
+    nav a:hover,
+    nav a.active {
       background-color: #ffab91;
       color: #000;
     }
 
     .container {
-  background: #880e4f;
+      background: #880e4f;
       padding: 60px 40px;
       border-radius: 25px;
       backdrop-filter: blur(10px);
@@ -69,8 +69,8 @@
     }
 
     h1 { font-size: 2.5rem; color: #ffab91; }
+    h2 { font-size: 1.5rem; margin-top: 15px; }
     p { font-size: 1.1rem; color: #f0f0f0; margin-top: 15px; }
-    .icon { font-size: 3rem; margin-bottom: 20px; }
 
     .waves {
       position: fixed;
@@ -99,15 +99,16 @@
     <a href="bahasa indonesia.html">Bahasa Indonesia</a>
     <a href="bahasa inggris.html">Bahasa Inggris</a>
     <a href="ips.html">IPS</a>
-    <a href="mandarin.html">Mandarin</a>
+    <a href="mandarin.html" class="active">Mandarin</a>
   </nav>
 
   <div class="container">
     <h1>Tugas Pelajaran Bahasa Mandarin</h1>
-    <h2>Membuat esai menggambarkan teman Anda dengan minimal 80 hanzi </h2>
+    <h2>Membuat esai menggambarkan teman Anda dengan minimal 80 hanzi</h2>
     <p>我的新朋友叫Ryan，今年十四岁，生日是二月四日。他在Sacred Heart High School读书，现在上八年级。他非常友好，也很有趣，我们很快就成为了朋友。
-        Ryan喜欢吃披萨，也喜欢打篮球。他打篮球打得很好，在活动中很积极。我们一起去了Ren'ai Senior Citizen’s Home，帮助老人们，度过了一个很有意义的上午。   
-       我最喜欢的活动是在Sacred Heart High School和朋友们一起做SDG演讲。我学到了很多关于可持续发展的知识，也锻炼了我的表达能力。这次台湾教育之旅让我交到新朋友, 也收获了很多快乐和成长。</p>
+      Ryan喜欢吃披萨，也喜欢打篮球。他打篮球打得很好，在活动中很积极。我们一起去了Ren'ai Senior Citizen’s Home，帮助老人们，度过了一个很有意义的上午。   
+      我最喜欢的活动是在Sacred Heart High School和朋友们一起做SDG演讲。我学到了很多关于可持续发展的知识，也锻炼了我的表达能力。这次台湾教育之旅让我交到新朋友，也收获了很多快乐和成长。</p>
   </div>
 </body>
 </html>
+
